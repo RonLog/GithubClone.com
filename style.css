@@ -251,7 +251,7 @@ main p {
 .github_enterprise {
     width: 70vw;
     height: 30vh;
-    background-image: url("/img/github-enterprise-city-w-logos.jpg");
+    background-image: url("./img/github-enterprise-city-w-logos.jpg");
     background-position: right;
     background-repeat: no-repeat;
     border: 1px solid gray;
