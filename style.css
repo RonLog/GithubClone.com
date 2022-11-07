@@ -295,20 +295,29 @@ main p {
 }
 
 .Code img {
-    width: 600px;
+    width: 80%;
     margin-top: 20px;
     box-shadow: 0 5px 15px rgb(100, 172, 255);
+    border-radius: 10px;
+
 }
 
 .Code2 {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
 }
 
 .Code3 {
     display: flex;
+    flex-wrap: wrap;
     margin-top: 20px;
 }
+
+.Code3>* {
+    flex-basis: 50%;
+}
+
 
 .Code1-Sub h1,
 .Code3_right h1 {
@@ -329,13 +338,18 @@ main p {
 }
 
 .Collaborate img {
-    width: 600px;
+    width: 50%;
+    box-shadow: 0 5px 15px rgb(219, 70, 159);
+    border-radius: 10px;
 }
+
 
 #mobile-img {
     height: 500px;
     width: 300px;
     border-radius: 50px;
+    box-shadow: none;
+
 }
 
 .Collaborate1-Sub h1 {
@@ -382,6 +396,11 @@ main p {
     margin-bottom: 20px;
 }
 
+.Collaborate7_right img {
+    width: 100%;
+    box-shadow: none;
+}
+
 .Collaborate7_left-icon i,
 .Collaborate7_right-icon i {
     font-size: 50px;
@@ -399,7 +418,9 @@ main p {
 }
 
 .Develop img {
-    width: 600px;
+    width: 50%;
+    box-shadow: 0 5px 15px rgb(33, 136, 255);
+    border-radius: 10px;
 }
 
 .Develop-Basis {
@@ -429,13 +450,13 @@ main p {
 }
 
 .Automate {
-    /* height: 100vh; */
     background-color: rgba(128, 255, 0, 0.356);
 }
 
 .Automate img {
-    width: 600px;
+    width: 100%;
     box-shadow: 0 5px 15px rgb(128, 78, 218);
+    border-radius: 10px;
 }
 
 .Automate2,
@@ -583,6 +604,8 @@ main p {
 }
 
 .Secure {
+    background-color: rgb(25, 37, 59);
+    color: white;
     background-image: url("/img/github-security-alert-fan.svg");
     background-position: bottom left;
     background-repeat: no-repeat;
@@ -594,12 +617,15 @@ main p {
 
 .Secure>* {
     display: flex;
+    flex-wrap: wrap;
+
 }
 
 .Secure img {
-    width: 600px;
+    width: 50%;
     border-radius: 10px;
     box-shadow: 0 5px 15px orange;
+
 }
 
 .Secure1-Sub h1 span {
@@ -637,7 +663,8 @@ main p {
 }
 
 .Community-Sub img {
-    width: 300px;
+    width: 100%;
+    border-radius: 10px;
 }
 
 .Community-Sub {
@@ -720,6 +747,8 @@ main p {
 .Community2_right img,
 .Community3_right img {
     box-shadow: 0 5px 15px rgb(33, 136, 255);
+    border-radius: 10px;
+
 }
 
 .Community4_left h1 {
@@ -879,6 +908,10 @@ section nav a:hover,
 
     header input:checked~.navbar-2 {
         display: block;
+    }
+
+    .Secure img {
+        width: 100%;
     }
 
 }
