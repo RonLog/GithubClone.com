@@ -94,6 +94,10 @@ header input[type="checkbox"] {
     color: white;
 }
 
+.navbar-1 ul li a:hover {
+    opacity: 0.5;
+}
+
 .navbar-2 {
     display: flex;
     flex-wrap: wrap;
@@ -107,6 +111,10 @@ header input[type="checkbox"] {
     margin: 10px;
     font-size: large;
 
+}
+
+.navbar-2>*:hover {
+    opacity: 0.5;
 }
 
 .navbar-2 input[type="text"] {
@@ -156,7 +164,7 @@ header input[type="checkbox"] {
 .products {
     position: absolute;
     display: flex;
-    gap: 291px;
+    gap: 288px;
 }
 
 .product {
