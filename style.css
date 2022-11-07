@@ -60,7 +60,7 @@ header {
 }
 
 header label,
-header input {
+header input[type="checkbox"] {
     display: none;
 }
 
