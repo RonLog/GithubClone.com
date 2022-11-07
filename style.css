@@ -86,8 +86,8 @@ header input {
     padding: 5px;
     margin: 0px 3px;
     font-size: large;
-    border: 2px solid white;
     border-radius: 5px;
+
 }
 
 .navbar-1 ul li a {
@@ -133,17 +133,15 @@ header input {
 
 
 .navbar-1 ul ul {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
     background-color: white;
     margin: 0;
     padding: 0;
     display: none;
+    border-radius: 10px;
 }
 
 .navbar-1 ul li:hover ul {
-    /* position: absolute; */
+    position: absolute;
     display: block;
 }
 
@@ -151,9 +149,18 @@ header input {
     color: black;
 }
 
+.navbar-1 ul ul li:hover a {
+    color: blue;
+}
+
 .products {
+    position: absolute;
     display: flex;
-    border-radius: 10px;
+    gap: 291px;
+}
+
+.product {
+    border-left: 1px solid gray;
 }
 
 .product ul {
@@ -162,9 +169,6 @@ header input {
     flex-direction: column;
 }
 
-.product {
-    border-right: 1px solid gray;
-}
 
 main {
     display: flex;
