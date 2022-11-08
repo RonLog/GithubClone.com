@@ -128,6 +128,7 @@ header input[type="checkbox"] {
 .navbar-2 a {
     text-decoration: none;
     color: white;
+    text-align: center;
 }
 
 .navbar-2 button {
@@ -912,13 +913,31 @@ section nav a:hover,
     .navbar-1,
     .navbar-2 {
         display: none;
+        flex-basis: 100%;
     }
+
 
     header input:checked~.navbar-1 {
         display: block;
     }
 
     header input:checked~.navbar-2 {
+        display: block;
+        display: flex;
+        align-items: stretch;
+    }
+
+    .navbar-1 ul,
+    .navbar-2 {
+        flex-direction: column;
+
+    }
+
+    .navbar-1 ul li:hover ul {
+        position: relative;
+    }
+
+    .products {
         display: block;
     }
 
