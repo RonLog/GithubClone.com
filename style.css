@@ -667,7 +667,7 @@ main p {
     width: 100vw;
     color: white;
     background-image: linear-gradient(180deg,
-            white 60%,
+            white 67%,
             rgb(12, 22, 45) 30%);
     display: flex;
     flex-wrap: wrap;
