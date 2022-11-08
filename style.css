@@ -946,4 +946,16 @@ section nav a:hover,
         width: 100%;
     }
 
+    #enterprise {
+        height: auto;
+    }
+
+    .github_enterprise {
+        height: auto;
+    }
+
+    .github_enterprise button {
+        margin-bottom: 20px;
+    }
+
 }
