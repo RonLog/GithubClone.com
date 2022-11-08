@@ -939,6 +939,7 @@ section nav a:hover,
 
     .products {
         display: block;
+        position: static;
     }
 
     .Secure img {
